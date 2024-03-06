@@ -1,0 +1,41 @@
+CSS
+/* Overall Styling */
+body {
+    font-family: 'Arial', sans-serif; /* A clean, easy-to-read font */
+    margin: 0; /* Reset default browser margins */
+    padding: 20px; 
+    background-color: #f4f8ec; /* A soft, natural background color */
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    margin-bottom: 30px; 
+}
+
+.tagline {
+    color: #68825a; /* A deeper, earthy green for the tagline */
+}
+
+.hero-image {
+    max-width: 100%; 
+    height: auto;  
+    display: block; /* Makes image take full available width */
+    margin: 0 auto 20px auto; /* Centers the image */
+}
+
+.call-to-action {
+    background-color: #4caf50; /* Standard 'success' green for the button */
+    color: white;
+    padding: 15px 30px; 
+    border: none; /* Remove default border */
+    border-radius: 5px;
+    cursor: pointer; /* Indicate it's clickable */
+}
+
+/* Section Styling - Adjust as needed */
+section {
+    margin-bottom: 40px;
+}
+
+/* You can add more styles for screenshots, footer, etc as your HTML grows */
