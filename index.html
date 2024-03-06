@@ -1,50 +1,84 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Green Paw Chefs: A Food Waste Awareness Game</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <link rel="stylesheet" type="text/css" href="style.css"> </head>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#faqs">FAQs</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-    <header>
+    <header id="home">
         <h1>Green Paw Chefs: A Food Waste Awareness Game</h1>
         <p class="tagline">Cook Deliciously, Reduce Waste, Learn Sustainability</p>
         <img src="assets/logo/logo-1.png" alt="Green Paw Chefs Logo" class="hero-image">
-        <button class="call-to-action">Get Notified on Release</button> 
-        </header>
+        <button class="call-to-action">Get Notified on Release</button>
+    </header>
+
+    <section id="features">
+        <h2>Game Features</h2>
+        <p>Explore the unique features that make Green Paw Chefs an engaging and educational experience.</p>
+        <ul>
+            <li>Dietary Restriction Matching</li>
+            <li>Calorie-Conscious Meal Planning</li>
+            <li>Ingredient Inventory System</li>
+            <li>Progressive Difficulty</li>
+            <li>Educational Content</li>
+            <li>Unlockable Content</li>
+        </ul>
+    </section>
 
     <section id="about">
         <h2>About the Game</h2>
-        <p>Briefly explain the game's mission and core gameplay loop.</p>
-        <ul>
-            <li>Dietary Restrictions Matching</li>
-            <li>Ingredient Inventory System</li>
-            <li>Educational Content</li> 
-            </ul>
+        <p>Learn more about the story behind Green Paw Chefs, the development process, and the team that brought it to life.</p>
     </section>
 
-    <section id="screenshots">
-        <h2>Concept Art & Screenshots</h2>
-        <div class="screenshot-container"> 
-            <img src="assets/concept-art/chef-cat-1.png" alt="Concept Art">
-            <img src="assets/concept-art/panda.png" alt="Concept Art">
-            <img src="assets/concept-art/otter.png" alt="Concept Art">
-            <img src="assets/concept-art/salmon-quinoa-bowl.png" alt="Concept Art">
-            <img src="assets/concept-art/game-background.png" alt="Concept Art">
-            <img src="assets/concept-art/main-menu.png" alt="Concept Art">
-            <img src="assets/concept-art/preparation-area.png" alt="Concept Art">
+    <section id="faqs">
+        <h2>FAQs</h2>
+        <p>Have questions? Find answers to common queries about the game here.</p>
+        <!-- Example FAQ -->
+        <div class="faq-item">
+            <h3>When will Green Paw Chefs be released?</h3>
+            <p>Green Paw Chefs is scheduled for release in late 2024. Sign up for updates to stay informed!</p>
         </div>
     </section>
 
-    <section id="coming-soon">
-        <h2>Coming Soon!</h2>
-        <p>Coming to Play Stores (Late 2024)</p>
-        <button class="call-to-action">Join the Waitlist</button> 
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>For inquiries, support, or feedback, please reach out to us.</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <section id="sign-up">
+        <h2>Join the Waitlist</h2>
+        <p>Excited about Green Paw Chefs? Sign up to get notified about the release and upcoming features!</p>
+        <form>
+            <input type="email" id="signup-email" name="email" placeholder="Enter your email" required>
+            <button type="submit">Sign Up</button>
+        </form>
     </section>
 
     <footer>
-        <p>&copy; 2024 Ashley Tang (The Running Cats Company)</p> 
-        </footer>
+        <p>&copy; 2024 Ashley Tang (The Running Cats Company)</p>
+    </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>

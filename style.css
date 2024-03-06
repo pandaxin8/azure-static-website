@@ -1,41 +1,110 @@
-CSS
 /* Overall Styling */
 body {
-    font-family: 'Arial', sans-serif; /* A clean, easy-to-read font */
+    font-family: 'Arial', sans-serif; /* Maintain a clean, easy-to-read font */
     margin: 0; /* Reset default browser margins */
-    padding: 20px; 
-    background-color: #f4f8ec; /* A soft, natural background color */
+    padding: 20px;
+    background-color: #F0F7EE; /* A light, soothing green background, like a soft morning in a garden */
 }
 
 /* Header Styling */
 header {
     text-align: center;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
 }
 
 .tagline {
-    color: #68825a; /* A deeper, earthy green for the tagline */
+    color: #50723C; /* A rich, leafy green for the tagline, evoking lush foliage */
 }
 
 .hero-image {
-    max-width: 100%; 
-    height: auto;  
-    display: block; /* Makes image take full available width */
+    max-width: 100%;
+    height: auto;
+    display: block; /* Ensures the image is responsive and centered */
     margin: 0 auto 20px auto; /* Centers the image */
 }
 
 .call-to-action {
-    background-color: #4caf50; /* Standard 'success' green for the button */
-    color: white;
-    padding: 15px 30px; 
-    border: none; /* Remove default border */
+    background-color: #A2D9A2; /* A lively, inviting green that stands out for the button */
+    color: #3E4B3E; /* A dark green for the text, ensuring good contrast and readability */
+    padding: 15px 30px;
+    border: none; /* Maintain no border */
     border-radius: 5px;
-    cursor: pointer; /* Indicate it's clickable */
+    cursor: pointer; /* Indicate the button is clickable */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
 }
 
-/* Section Styling - Adjust as needed */
+.call-to-action:hover {
+    background-color: #8CC98C; /* A slightly darker green on hover to indicate interactivity */
+}
+
+/* Section Styling - General adjustments for better spacing and readability */
 section {
     margin-bottom: 40px;
+    padding: 20px;
+    background-color: #FFFFFF; /* Sections have a clean, white background for contrast */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Soft shadow for depth */
+    border-radius: 8px; /* Slightly rounded corners for a modern, friendly look */
 }
 
-/* You can add more styles for screenshots, footer, etc as your HTML grows */
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #50723C; /* A deep, rich green for the footer, tying back to the tagline color */
+    color: #FFFFFF; /* White text for contrast */
+    margin-top: 40px; /* Ensures there's space before the footer */
+}
+
+/* Additional Styles for Enhanced Aesthetics */
+/* Navigation Styling */
+nav ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+    text-align: center; /* Center the navigation menu */
+}
+
+nav ul li {
+    display: inline; /* Display list items inline */
+    margin: 0 15px; /* Spacing between menu items */
+}
+
+nav ul li a {
+    text-decoration: none; /* No underline on links */
+    color: #3E4B3E; /* Dark green for readability and theme consistency */
+    font-weight: bold; /* Make menu items bold */
+}
+
+/* Enhance the visual hierarchy and readability */
+h1, h2, h3 {
+    color: #3E4B3E; /* Dark green for headers, ensuring consistency and focus */
+}
+
+/* Improve form aesthetics */
+input[type="text"], input[type="email"], textarea {
+    width: 100%; /* Full width */
+    padding: 10px;
+    margin: 10px 0; /* Spacing */
+    border: 1px solid #ccc; /* Subtle border */
+    border-radius: 4px; /* Slightly rounded borders for input fields */
+}
+
+button[type="submit"] {
+    background-color: #A2D9A2; /* Matching the call-to-action button */
+    color: #3E4B3E;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #8CC98C;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block; /* Stack nav items under each other on smaller screens */
+        margin: 10px 0; /* Adjust spacing for stacked items */
+    }
+}
