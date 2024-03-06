@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Green Paw Chefs: A Food Waste Awareness Game</title>
+    <meta name="description" content="Green Paw Chefs is a food waste awareness game teaching sustainability through cooking.">
+    <meta name="keywords" content="Green Paw Chefs, Food Waste, Sustainability, Cooking Game, Educational">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -40,6 +42,38 @@
     <section id="about">
         <h2>About the Game</h2>
         <p>Learn more about the story behind Green Paw Chefs, the development process, and the team that brought it to life.</p>
+        <section id="concept-art">
+            <h2>Concept Art Gallery</h2>
+            <div class="gallery">
+                <a href="assets/concept-art/chef-cat-1.png" class="image-link">
+                    <img src="assets/concept-art/chef-cat-1.png" alt="Chef Cat Concept Art" class="modal-image">
+                </a>
+                <a href="assets/concept-art/panda.png" class="image-link">
+                    <img src="assets/concept-art/panda.png" alt="Panda Chef Concept Art">
+                </a>
+                <a href="assets/concept-art/otter.png" class="image-link">
+                    <img src="assets/concept-art/otter.png" alt="Otter Chef Concept Art">
+                </a>
+                <a href="assets/concept-art/salmon-quinoa-bowl.png" class="image-link">
+                    <img src="assets/concept-art/salmon-quinoa-bowl.png" alt="Salmon Quinoa Bowl Concept Art">
+                </a>
+                <a href="assets/concept-art/game-background.png" class="image-link">
+                    <img src="assets/concept-art/game-background.png" alt="Game Background Concept Art">
+                </a>
+                <a href="assets/concept-art/main-menu.png" class="image-link">
+                    <img src="assets/concept-art/main-menu.png" alt="Main Menu Concept Art">
+                </a>
+                <a href="assets/concept-art/preparation-area.png" class="image-link">
+                    <img src="assets/concept-art/preparation-area.png" alt="Preparation Area Concept Art">
+                </a>
+            </div>
+            <!-- Lightbox Modal -->
+            <div id="lightbox-modal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="lightbox-image">
+                <div id="caption"></div>
+            </div>
+        </section>
     </section>
 
     <section id="faqs">
@@ -76,7 +110,22 @@
     </section>
 
     <footer>
-        <p>&copy; 2024 Ashley Tang (The Running Cats Company)</p>
+        <div class="footer-content">
+            <p>&copy; 2024 Ashley Tang (The Running Cats Company)</p>
+            <div class="footer-links">
+                <a href="#home">Home</a> |
+                <a href="#features">Features</a> |
+                <a href="#about">About</a> |
+                <a href="#faqs">FAQs</a> |
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="social-media">
+                <!-- Add icons with links to your social media profiles -->
+                <a href="your-facebook-url" aria-label="Facebook">FB</a>
+                <a href="your-twitter-url" aria-label="Twitter">TW</a>
+                <a href="your-instagram-url" aria-label="Instagram">IG</a>
+            </div>
+        </div>
     </footer>
 
     <script src="script.js"></script>
